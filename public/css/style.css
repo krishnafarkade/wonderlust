@@ -1,0 +1,140 @@
+body{
+        font-family: "Plus Jakarta Sans", sans-serif !important;
+        font-optical-sizing: auto !important;
+        font-weight: 400 !important;
+        font-style: normal !important;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+
+.container{
+    flex:1;
+}
+
+/* Navbar */
+.navbar{
+    height: 5rem;
+    background-color: white;
+   
+}
+
+.fa-compass{
+    font-size: 2rem ;
+    color: #fe424d;
+}
+
+.nav-link{
+     color: #222222 !important;  /*overcome the color of bootstrap*/
+} 
+
+
+/* Footer */
+.f-info{
+    height: 8rem;
+    display: flex;
+    background-color: #ebebeb;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+    text-align: center;
+}
+
+.f-social-info,.f-info-link,
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.f-social-info i {
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.f-info-link a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-link a:hover{
+    text-decoration: underline;
+
+}
+
+/* cards */
+
+.listing-card{
+    border: none !important;
+    
+}
+.card-img-top{
+    border-radius: 1rem !important;
+    height: 19rem;
+    /* width: 20%; */
+}
+.card-body{
+    padding: 0 !important;
+    margin-bottom: 1rem;
+}
+
+.card-text{
+    font-weight: 400 !important;
+}
+
+.listing_link{
+    text-decoration: none;
+    color: #222222;
+}
+
+
+/* card effect */
+
+.listing-card {
+    position: relative;
+}
+
+.card-img-overlay {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+
+/* newpage */
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* show page */
+.show-image{
+height: 30vh;
+}
+
+.btns{
+    display: flex;
+}
+
+.show-btn{
+    padding-left: 0;
+    padding-right: 0;
+
+}
+#map { height: 180px; }
